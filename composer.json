@@ -1,0 +1,32 @@
+{
+  "name": "lookscool/package-a",
+  "description": "Looks Cool Package A",
+  "type": "library",
+  "license": "MIT",
+  "authors": [],
+  "autoload": {
+      "psr-4": {
+          "LooksCool\\": "src"
+      }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "LooksCool\\Tests\\": "tests"
+      }
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "LooksCool\\ServiceProvider"
+          ]
+      }
+  },
+  "require": {
+      "php": "^8.0",
+      "lookscool/package-b": "^1.0"
+  },
+  "require-dev": {
+      "orchestra/testbench": "^6.0",
+      "phpunit/phpunit": "^9.5"
+  }
+}
