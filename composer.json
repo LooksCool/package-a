@@ -22,7 +22,7 @@
     },
     "require": {
         "php": "^8.0",
-        "lookscool/package-b": "^0.3"
+        "lookscool/package-b": "^0.2.2"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
